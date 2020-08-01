@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+  .Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+  }
+  
+  .Team .identity {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Team img {
+    max-width: 200px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }  
+
+  .versus h1 {
+    font-family: againtsregular, oswald, sans-serif;
+    font-size: 500%;
+    color: red;
+    text-shadow: 2px 2px 0 black;
+  }
+
+ .venue {
+   text-align: center;
+ }
